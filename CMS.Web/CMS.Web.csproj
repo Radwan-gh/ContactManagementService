@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CMS.Core\CMS.Core.csproj" />
+    <ProjectReference Include="..\CMS.Infrastructure\CMS.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

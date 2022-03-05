@@ -1,4 +1,5 @@
 ﻿using CMS.Core.Entities;
+using CMS.Core.Interfaces;
 using Microsoft.Extensions.Configuration;
 using MongoDB.Bson.Serialization;
 using MongoDB.Driver;
