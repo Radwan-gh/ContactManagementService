@@ -1,7 +1,7 @@
 ﻿using CMS.Core.Entities;
 using MongoDB.Driver;
 
-namespace CMS.Infrastructure.Data
+namespace CMS.Core.Interfaces
 {
     public interface IMongodbContext
     {
@@ -9,5 +9,7 @@ namespace CMS.Infrastructure.Data
 
         IMongoCollection<Company> Companies { get; }
         IMongoCollection<Contact> Contacts { get; }
+        IMongoCollection<IdentifierSequence> IdentifierSequences { get; }
+        IMongoCollection<EntityCustomAttribute> EntityCustomAttributes { get; }
     }
 }

@@ -24,11 +24,21 @@ namespace CMS.Infrastructure.Data
 
         public IMongoCollection<Company> Companies { get { return _database.GetCollection<Company>(nameof(Company)); } }
         public IMongoCollection<Contact> Contacts { get { return _database.GetCollection<Contact>(nameof(Contact)); } }
+        public IMongoCollection<IdentifierSequence> IdentifierSequences { get { return _database.GetCollection<IdentifierSequence>(nameof(IdentifierSequence)); } }
+        public IMongoCollection<EntityCustomAttribute> EntityCustomAttributes
+        {
+            get
+            {
+                return _database.GetCollection<EntityCustomAttribute>(nameof(EntityCustomAttribute));
+            }
+        }
 
         public void init()
         {
             BsonClassMap.RegisterClassMap<Company>();
             BsonClassMap.RegisterClassMap<Contact>();
+            BsonClassMap.RegisterClassMap<IdentifierSequence>();
+            BsonClassMap.RegisterClassMap<EntityCustomAttribute>();
         }
     }
 }

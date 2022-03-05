@@ -1,7 +1,7 @@
 ﻿using Ardalis.GuardClauses;
 using CMS.Core.Entities;
+using CMS.Core.Interfaces;
 using CMS.Core.Services.CustomAttributes.Dtos;
-using CMS.Infrastructure.Data;
 using CMS.SharedKernel;
 using MongoDB.Driver;
 using System.Collections.Generic;

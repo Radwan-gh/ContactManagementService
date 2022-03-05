@@ -1,5 +1,5 @@
 ﻿using CMS.Core.Entities;
-using CMS.Infrastructure.Data;
+using CMS.Core.Interfaces;
 using MongoDB.Driver;
 
 namespace CMS.Core.Services.IdentifierSequences
