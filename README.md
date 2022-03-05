@@ -1,6 +1,10 @@
 # ContactManagementService
 You can find the API documentation on the home page /
 
+**Technologies**
+Mongodb
+.Net Core 6
+
 **Completed Tasks:**
 1. Search by contact and company fields/custom attribues
 2. Company CRUD
