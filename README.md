@@ -1,9 +1,11 @@
-#Contact Management System
+# Contact Management System
 
 **Brief **
+
 Web API application to manage Extendable Customers data (simple contact management). 
 
 **Requirements **
+
 •	Store data for two entities Companies and Contacts. Every contact can be in multiple companies 
 •	Company 
 •	ID: auto number 
