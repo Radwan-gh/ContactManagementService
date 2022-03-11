@@ -1,6 +1,8 @@
 # ContactManagementService
 You can find the API documentation on the home page /
 
+**Sulotion Structure** based on [https://github.com/ardalis/CleanArchitecture](clean architecture) by Ardalis
+
 **Technologies**
 Mongodb
 .Net Core 6
