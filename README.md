@@ -1,7 +1,7 @@
 # ContactManagementService
 You can find the API documentation on the home page /
 
-**Sulotion Structure** based on [https://github.com/ardalis/CleanArchitecture/](clean architecture) by Ardalis
+**Sulotion Structure** based on [clean architecture](https://github.com/ardalis/CleanArchitecture/) by Ardalis
 
 **Technologies**
 Mongodb
